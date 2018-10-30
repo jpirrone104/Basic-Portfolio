@@ -1,0 +1,26 @@
+h1 {
+    background-color: #4aaaa5;
+    width: 20%;
+    color: #ffffff;
+    margin: 0;
+    display: inline;
+    font-size: 24px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul#nav {
+    text-align: right;
+    float: right;
+    
+}
+
+ul#nav li {
+    display: inline-block;
+    font-size: 18px;
+
+}

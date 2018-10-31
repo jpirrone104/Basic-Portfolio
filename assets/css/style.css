@@ -22,7 +22,12 @@ h1 {
 
 }
 
+h2 {
 
+    padding: .8em;
+    border-bottom: 2px solid #777777;
+    color: #4aaaa5;
+}
 
 h1, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -60,6 +65,9 @@ a {
     margin-left: 11em;
     margin-right: 12em;
     background-color: #ffffff;
+}
+.portfolioimage {
+   /* float: left;*/
 }
 
 footer {

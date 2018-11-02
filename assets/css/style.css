@@ -111,9 +111,36 @@ a:active {
     flex-wrap: nowrap;
 }
 
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: .5em;
+    border: none;
+
+}
+
 .portfolioimage {
-    padding: .8em .8em .8em .8em
+    float: left;
+    position: relative;
+    margin: .8em .8em .8em .8em; 
+
+}
+
+.caption{
     
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 7px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+
+}
+
+.caption p{
+    padding-top: .8em;
+    padding-bottom: .8em;
 }
 
 

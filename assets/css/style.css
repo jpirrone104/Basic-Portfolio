@@ -97,6 +97,9 @@ a:active {
     justify-content: left;
  
 }
+#portfoliopad {
+    padding: .3em 20em .8em .8em;
+}
 
 #bioimage {
     width: 150px;

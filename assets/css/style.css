@@ -94,6 +94,7 @@ a:active {
     display: block;
     flex-wrap: wrap;
     justify-content: left;
+    width:960px;
  
 }
 

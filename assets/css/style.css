@@ -18,7 +18,6 @@ h1 {
     padding: .4em;
     display: inline;
     font-size: 24px;
-    float: top;
     margin-left: 7em; 
 
 }
@@ -92,13 +91,10 @@ a:active {
 
 .content {
     padding: .3em .8em .8em .8em;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: left;
  
-}
-#portfoliopad {
-    padding: .3em 20em .8em .8em;
 }
 
 #bioimage {
@@ -121,14 +117,47 @@ a:active {
     border: none;
 
 }
-
-.portfolioimage {
-    float: left;
+#images {
+    display: block;
+    height: 800px;
     position: relative;
-    margin: .8em .8em .8em .8em; 
-
+    
 }
 
+#pull_right {
+    
+    position: absolute;
+    left: 250px;
+}
+
+#pull_right2 {
+    
+    position: absolute;
+    left: 250px;
+    top: 225px;
+}
+
+#pull_left1 {
+    
+    position: absolute;
+    left: 25px;
+    
+}
+#pull_left2 {
+    
+    position: absolute;
+    left:25px;
+    top: 225px;
+    
+}
+#pull_left3 {
+    
+    position: absolute;
+    left:25px;
+    top: 450px;
+   
+    
+}
 .caption{
     
     background-color: #4aaaa5;
